@@ -6,7 +6,13 @@
 ## System Design:  
 >The chat room has two kinds of users: user and administrator.  
 >For users, they can register, login, and chat with other after login.  
-<img src="pic/System_design_user.png" width = 650>
+
+<img src="pic/System_design_user.png" width = 650/>  
+
+>For administrator, there is no need to register or login. When they start server, they begin to manage the server. Administrator can use server to process register&login data, store chat records, and send message to normal users.  
+
+<img src="pic/System_design_admin.png" width = 650/>  
+
 ## Function & UI:  
 ### 
 ## Reference:   
