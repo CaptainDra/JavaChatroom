@@ -78,7 +78,7 @@ public class  Login extends JFrame  implements ActionListener
 		pnlLogin.add(btnExit);
 		
 		//ÉèÖÃ±³¾°Í¼Æ¬
-		Icon logo1 = new ImageIcon("C:\\Users\\Leonard\\Desktop\\Java-Chat-master\\Java-Chat\\chatroom\\images\\loginlogo.jpg");
+		Icon logo1 = new ImageIcon("./images/loginlogo.jpg");
 	 	lblLogo = new JLabel(logo1);
 		lblLogo.setBounds(0,0,340,66);
 		pnlLogin.add(lblLogo);
@@ -89,7 +89,7 @@ public class  Login extends JFrame  implements ActionListener
 	    scrnsize=toolkit.getScreenSize();
     	setLocation(scrnsize.width/2-this.getWidth()/2,
     	                 scrnsize.height/2-this.getHeight()/2);
-    	Image img=toolkit.getImage("C:\\Users\\Leonard\\Desktop\\Java-Chat-master\\Java-Chat\\chatroom\\images\\appico.jpg");
+    	Image img=toolkit.getImage("./images/appico.jpg");
         setIconImage(img);
 			
 		//Èý¸ö°´Å¥×¢²á¼àÌý

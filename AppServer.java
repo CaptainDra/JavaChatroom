@@ -198,7 +198,7 @@ public class AppServer extends Thread
 		    Customer clientMessage2 = (Customer)obj;
 		    			    	
 		            //读文件
-	            FileInputStream file3 =new FileInputStream("C:\\Users\\Leonard\\Desktop\\Java-Chat-master\\Java-Chat\\chatroom\\user.txt");
+	            FileInputStream file3 =new FileInputStream("./user.txt");
 			    ObjectInputStream objInput1 = new ObjectInputStream(file3);
 			    vList=(Vector)objInput1.readObject(); 
 				    	
@@ -295,7 +295,7 @@ public class AppServer extends Thread
 	     {
 	       	int flag=0;  //是否重名判断标志
 			Register_Customer clientMessage =(Register_Customer)obj;
-	       	File fList=new File("C:\\Users\\Leonard\\Desktop\\Java-Chat-master\\Java-Chat\\chatroom\\user.txt");
+	       	File fList=new File("./user.txt");
 	      	if(fList.length()!= 0)//判断数据库为空是否是第一个注册用户
 	      	{
 	        	ObjectInputStream objInput = new ObjectInputStream(new FileInputStream(fList));

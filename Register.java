@@ -87,7 +87,7 @@ public class Register extends JFrame  implements ActionListener
 		pnlRegister.add(btnClear);
 	    
 	    //ÉèÖÃ±³¾°Í¼Æ¬
-	    Icon logo = new ImageIcon("C:\\Users\\Leonard\\Desktop\\Java-Chat-master\\Java-Chat\\chatroom\\images\\registerlogo.jpg");
+	    Icon logo = new ImageIcon("./images/registerlogo.jpg");
 	 	logoPosition = new JLabel(logo);
 		logoPosition.setBounds(0, 0, 360,78);
 		pnlRegister.add(logoPosition);
@@ -99,7 +99,7 @@ public class Register extends JFrame  implements ActionListener
     	scrnsize=toolkit.getScreenSize();
     	this.setLocation(scrnsize.width/2-this.getWidth()/2,
     	                 scrnsize.height/2-this.getHeight()/2);
-		Image img=toolkit.getImage("C:\\Users\\Leonard\\Desktop\\Java-Chat-master\\Java-Chat\\chatroom\\images\\appico.jpg");
+		Image img=toolkit.getImage("./images/appico.jpg");
         this.setIconImage(img);
 		//Èý¸ö°´Å¥×¢²á¼àÌý
 		btnOk    .addActionListener(this);
