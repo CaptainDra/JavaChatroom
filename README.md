@@ -14,6 +14,11 @@
 <img src="pic/System_design_admin.png" width = 650/>  
 
 ## Function & UI:  
-### 
+### User's Function:   
+>The main interface for user should be login function. However, new user should register before login.    
+
+<img src="pic/login_UI.png" height = 250/>    <img src="pic/register_UI.png" height = 250/>  
+
+
 ## Reference:   
 >刘志成:《Java程序设计案例教程》
